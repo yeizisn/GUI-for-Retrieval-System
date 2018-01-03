@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>SASTBX</string>
+  </property>
+  <property name="statusTip">
+   <string/>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QListWidget" name="listWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>190</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>300</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>true</bool>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Sunken</enum>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>60</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="movement">
+        <enum>QListView::Free</enum>
+       </property>
+       <property name="flow">
+        <enum>QListView::TopToBottom</enum>
+       </property>
+       <property name="resizeMode">
+        <enum>QListView::Adjust</enum>
+       </property>
+       <property name="layoutMode">
+        <enum>QListView::Batched</enum>
+       </property>
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="gridSize">
+        <size>
+         <width>100</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="viewMode">
+        <enum>QListView::ListMode</enum>
+       </property>
+       <property name="batchSize">
+        <number>150</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Model Superposition</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Devanagari MT</family>
+          <pointsize>17</pointsize>
+          <italic>false</italic>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/image/imge/superpose.png</normaloff>:/image/imge/superpose.png</iconset>
+        </property>
+        <property name="flags">
+         <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Shape Search Engine</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Devanagari MT</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="foreground">
+         <brush brushstyle="NoBrush">
+          <color alpha="255">
+           <red>0</red>
+           <green>0</green>
+           <blue>0</blue>
+          </color>
+         </brush>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/image/imge/shapeup.png</normaloff>:/image/imge/shapeup.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string extracomment="sastbx">Intensity Calculation</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Devanagari MT</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/image/imge/she.png</normaloff>:/image/imge/she.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>P(r) Estimation</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Devanagari MT</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/image/imge/pregxs.png</normaloff>:/image/imge/pregxs.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Protein Retrieval Engine</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Devanagari MT</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="resource.qrc">
+          <normaloff>:/image/imge/retrieval.jpg</normaloff>:/image/imge/retrieval.jpg</iconset>
+        </property>
+       </item>
+      </widget>
+      <widget class="QSplitter" name="splitter">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="minimumSize">
+            <size>
+             <width>460</width>
+             <height>200</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Devanagari MT</family>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
+           <property name="title">
+            <string>Active Project</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Devanagari MT</family>
+             <pointsize>17</pointsize>
+            </font>
+           </property>
+           <property name="title">
+            <string>Status</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>Devanagari MT</family>
+             <pointsize>15</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Current Project</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>Brower</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>959</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="actionOpenProject"/>
+   </widget>
+   <widget class="QMenu" name="menu_Help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="actionSASTBX"/>
+    <addaction name="actionDocument"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionPymol_2"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menu_Help"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQuit"/>
+   <addaction name="actionPymol"/>
+   <addaction name="actionPreference"/>
+   <addaction name="actionHelp"/>
+   <addaction name="actionEmail_help"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="cursor">
+    <cursorShape>IBeamCursor</cursorShape>
+   </property>
+   <property name="whatsThis">
+    <string extracomment="status bar"/>
+   </property>
+   <property name="accessibleName">
+    <string comment="123"/>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset>
+     <normalon>:/image/imge/quit.png</normalon>
+    </iconset>
+   </property>
+   <property name="text">
+    <string>quit</string>
+   </property>
+   <property name="priority">
+    <enum>QAction::HighPriority</enum>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/imge/help.png</normaloff>
+     <normalon>:/image/imge/play.png</normalon>:/image/imge/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+  <action name="actionPymol">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/imge/pymol.png</normaloff>:/image/imge/pymol.png</iconset>
+   </property>
+   <property name="text">
+    <string>pymol</string>
+   </property>
+  </action>
+  <action name="actionPreference">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/imge/preferences.png</normaloff>:/image/imge/preferences.png</iconset>
+   </property>
+   <property name="text">
+    <string>preference</string>
+   </property>
+  </action>
+  <action name="actionEmail_help">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/image/imge/email_help.png</normaloff>:/image/imge/email_help.png</iconset>
+   </property>
+   <property name="text">
+    <string>online_help</string>
+   </property>
+  </action>
+  <action name="actionSASTBX">
+   <property name="text">
+    <string>SASTBX Example</string>
+   </property>
+   <property name="iconText">
+    <string>SASTBX</string>
+   </property>
+  </action>
+  <action name="actionDocument">
+   <property name="text">
+    <string>SASTBX Document</string>
+   </property>
+  </action>
+  <action name="actionOpenProject">
+   <property name="text">
+    <string>New Project</string>
+   </property>
+  </action>
+  <action name="actionPymol_2">
+   <property name="text">
+    <string>pymol</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
